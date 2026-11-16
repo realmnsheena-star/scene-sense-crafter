@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Keep the SmartStock demo dataset and inventory calculations in the browser-safe `src/lib/smartstock.ts` module; this demo intentionally uses browser-local persistence without sign-in, so the preview works without backend setup.
